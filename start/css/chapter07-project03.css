@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
+       url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg'); /* Legacy iOS */
+}
+
 body {
   margin: 0% 8% 0% 8%;
   width: 0% 8% 0% 8%;
@@ -7,6 +16,11 @@ footer {
 	background-color:#303f9f;
 	font-size:8pt;
 }
+
+.navbar-header{
+	font-family:'glyphicons-halflings-regular';
+}
+
 .inline-block {
 	
 	display:inline-block;
@@ -25,6 +39,7 @@ footer {
 .darkBlue {
 	background-color:#0000FF;
 	margin: 0% 0% 0% 0%;
+
 }
 .contact-us-submit {
 	background: #FF69B4;

@@ -17,29 +17,30 @@
 
 <body>
     <header>
-        <div class="topHeaderRow darkBlue">
-            <div >
-                <div >
-                    <ul > <!--ul has bottom margin-->
-                        <li><a href="#"> Logout</a></li>
-                        <li><a href="#"> Profile</a></li>
-                        <li><a href="#"> Favorites</a></li>
-                    </ul>
-                </div>
+        <div class="row topHeaderRow darkBlue">
+            <div class="col-md-9 col-lg-9"></div>
+        	<div class="col-md-1 col-lg-1">
+                <a href="#"> Logout</a>
+            </div>
+            <div class="col-md-1 col-lg-1">
+                <a href="#"> Profile</a>
+            </div>
+            <div class="col-md-1 col-lg-1">
+                <a href="#"> Favorites</a>
             </div>
         </div>
         <!-- end topHeaderRow -->
 
 
         <nav class="navbar navbar-default navbar-expand-sm">
-            <div class="container>
+            <div class="container">
 
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="nav navbar-header">
-				<div class="navbar-header"> 
-					<h1>Share Your Travels</h1> <!-- fix font and make italitcs.  -->
-				</div>
+					<div class="navbar-header"> 
+						<h1>Share Your Travels</h1> <!-- fix font and make italitcs.  -->
+					</div>
                     <ul class="nav navbar-nav">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -76,9 +77,11 @@
 
     <!-- Page Content -->
     <main >
+    	<div class="row">
+    		<div class="col-md-3 col-lg-3">
 
             <aside>
-                <div >
+                <div>
                     <div >Continents</div>
                     <ul >
                         <li><a href="#">Africa</a></li>
@@ -105,14 +108,17 @@
                     </ul>
                 </div>
   
-            </aside>
-            <div >
-                    <div >
+            </aside></div>
+            
+            <div class="col-md-9 col-lg-9">
+            
+            <div class="row">
+                    <div class="col-md-9 col-lg-9">
                         <img  src="images/8711645510.jpg" alt="Temple of Hephaistos">
                         <p >Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the best preserved temple of antiquity. </p>
                     </div>
 
-                    <div >
+                    <div class="col-md-3 col-lg-3">
                         <h2>Temple of Hephaistos</h2>
 
                         <div >
@@ -162,11 +168,15 @@
             <!-- Related Photos -->
             <div>
 
-                <div >
-                    <h3>Related Photos</h3>
+                <div class="row">
+                	<div class="col-md-12 col-lg-12">
+	                    <h3>Related Photos</h3>
+	                </div>
                 </div>
 
-                <div >
+				<div class="row">
+				
+                <div class="col-md-3 col-lg-3">
                    <div >
                         <a href="#" >
                             <img src="images/related/8710320515.jpg" alt="">
@@ -179,7 +189,7 @@
                     </div>
                 </div>
 
-                <div >
+                <div class="col-md-3 col-lg-3">
                    <div >
                         <a href="#" >
                             <img src="images/related/8710513053.jpg" alt="">
@@ -192,7 +202,7 @@
                     </div>
                 </div>
 
-                <div >
+                <div class="col-md-3 col-lg-3">
                    <div >
                         <a href="#" >
                             <img  src="images/related/8711623884.jpg" alt="">
@@ -205,7 +215,7 @@
                     </div>
                 </div>
 
-                <div >
+                <div class="col-md-3 col-lg-3">
                    <div >
                         <a href="#" >
                             <img  src="images/related/9498388516.jpg" alt="">
@@ -217,8 +227,15 @@
                         </div>
                     </div>
                 </div>
+                
+                </div>
                                
             </div>
+            
+            
+            
+            </div>
+        </div>
 
     </main>
     
@@ -302,7 +319,7 @@
                 </div>                                    
            
         </div>  
-        <div class="row darkBlue">
+        <div class="row darkBlue" >
             <div class="col-md-12 col-lg-12 text-center">
                 <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
                 <p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
