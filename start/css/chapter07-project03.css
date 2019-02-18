@@ -1,8 +1,12 @@
-html, body {
-  height: 100%
+body {
+  margin: 0% 8% 0% 8%;
+  width: 0% 8% 0% 8%;
 }
-
-
+footer {
+	color:white;
+	background-color:#303f9f;
+	font-size:8pt;
+}
 .inline-block {
 	
 	display:inline-block;
@@ -18,11 +22,11 @@ html, body {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
+.darkBlue {
+	background-color:#0000FF;
 
-footer {
-	color:white;
-	background-color:#303f9f;
 }
+
 div.inputFieldBuffer{
 	margin-bottom:.5em;
 ]
