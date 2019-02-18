@@ -53,4 +53,39 @@ div.inputFieldBuffer{
 
 }
 
+table{
+	width: 75%;
+	margin-left:25%;
+	border:1px solid black;
+	
+}
+
+th,tr,td{
+	border:1px solid gray;
+	padding:4%;
+}
+
+.popularTable{
+	margin-top:10%;
+}
+
+th{
+	background-color:darkBlue;
+	color:white;
+}
+
+td{
+	background-color:white;
+}
+
+.mainIMG{
+	width:100%;
+}
+
+.rightDescription{
+	background-color:white;
+	margin:0%;
+	padding-top:2%;
+	padding-bottom:2%;
+}
 
