@@ -38,11 +38,19 @@ footer {
 }
 .darkBlue {
 	background-color:#0000FF;
-	margin:0% 0% 0% 0%;
+	margin: 0% 0% 0% 0%;
+
 }
+.contact-us-submit {
+	background: #FF69B4;
+	border: 10px ;
+	width: 14.8em;
+	margin-bottom: 1em;
+} 
 
 div.inputFieldBuffer{
 	margin-bottom:.5em;
+
 }
 
 table{
@@ -80,3 +88,4 @@ td{
 	padding-top:2%;
 	padding-bottom:2%;
 }
+
