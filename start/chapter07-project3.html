@@ -7,6 +7,8 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/chapter07-project03.css" />
@@ -235,27 +237,18 @@
                         </div>
                         <div class="col-md-6">
                             <h5>Follow Us</h5>
-                            <button type="button" >
-                                Camera
-                            </button>
-                            <button type="button" >
-                                User
-                            </button>    
-                            <button type="button" >
-                                Tags
-                            </button>    
-                            <button type="button" >
-                                Bookmark
-                            </button>          
-                            <button type="button" >
-                                Fire
-                            </button>                                                                                                     
+							<!--If have time, try to change color of each other these.  Functional as is.-->
+							<a href="#"> <i class="fas fa-camera fa-3x "></i></a>
+							<a href="#"><i class="fas fa-user fa-3x"></i> </a>
+                            <a href="#"> <i class="fas fa-tags fa-3x"></i> </a>   
+                            <a href="#"> <i class="fas fa-bookmark fa-3x"></i> </a>     
+                           <a href="#"> <i class="fas fa-fire fa-3x"></i> </a>                                                                             
                         </div>                        
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3">
  
-                    <h5> Recent Posts</h5>
+                    <h5> <i class="fas fa-pencil-alt"></i> Recent Posts</h5>
                     <div class="inline-block">
                       <a  href="#">
                         <img  src="images/footer/6592294487.jpg" alt="..." class="img-circle ">
@@ -287,23 +280,23 @@
                     </div>                
                
                 </div>
-                <div class="col-md-3 col-lg-3">
-                
-                    <h5> Contact us</h5>
+                <div class="form-group col-md-3 col-lg-3">
+					
+                    <h5> <i class="fas fa-envelope prefix"></i> Contact us</h5>
                     <form role="form">
-                      <div class="inputFieldBuffer input-group-lg">
+                      <div class="inputFieldBuffer ">
                         <label class="sr-only" for="name">Name</label>
-                        <input type="text"  name="email" placeholder="Enter name ...">
+                        <input class= "container-fluid" type="text"  name="email" placeholder="Enter name ...">
                       </div> 
                       <div class="inputFieldBuffer">
                         <label class="sr-only" for="email">Email</label>
-                        <input type="email"  name="email" placeholder="Enter email ...">
+                        <input class= "container-fluid" type="email"  name="email" placeholder="Enter email ...">
                       </div> 
                       <div class="inputFieldBuffer">
                         <label class="sr-only" for="email">Email</label>
-                        <textarea  rows="3" placeholder="Enter message ..."></textarea>
+                        <textarea  class= "container-fluid"rows="3" placeholder="Enter message ..."></textarea>
                       </div>   
-                      <button type="submit" >Submit</button>
+                      <button type="submit" class="contact-us-submit">Submit</button>
                     </form>  
                                    
                 </div>                                    
