@@ -110,6 +110,46 @@ ul.topBar > li { /*Targets all list items first descenndents from ul which has t
 i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row does.   */ 
 	padding-left:1em;
 }
+.relatedPhoto {
+	display:block;
+	list-style:none;
+	border: thin purple solid;
+	margin: 3%;
+	padding: 3%;
+	text-align:center;
+}
+.relatedPhoto h6{
+	caption-side: bottom;
+}
+.relatedPhotoB1{
+  background-color: hotpink; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.relatedPhotoB2{
+  background-color: lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+}
+
+
 @font-face {
   font-family: 'MyWebFont';
   src: url('../fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
