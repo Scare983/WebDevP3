@@ -91,6 +91,19 @@ td{
 	padding-top:2%;
 	padding-bottom:2%;
 }
+
+.rightIcons button{
+float:left;
+background-color:white;
+display:inline-block;
+margin-top:5%;
+margin-bottom:5%;
+padding-top:2%;
+padding-bottom:2%;
+padding-right:7%;
+padding-left:7%;
+}
+
 h1 {
 	font-style:italic;
 	font-size: 15pt;
@@ -162,6 +175,8 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
   cursor: pointer;
 
 }
+
+
 
 
 @font-face {
