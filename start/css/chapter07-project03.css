@@ -41,7 +41,7 @@ footer {
 	background:  #FF69B4;
 	border: 10px;
 	color:white;
-	padding: 3px 8px 3px 8px ;
+	padding: 3px 3px 3px 3px;
 }
 .contact-us-submit {
 	background: #FF69B4;
@@ -103,11 +103,13 @@ ul.topBar {
 	 margin:0 0 0 0;
 	
 }
-ul.topBar > li {
+ul.topBar > li { /*Targets all list items first descenndents from ul which has the class topBar*/
 	padding: 0 1em 0 0 ;
 	display:inline;
 }
-
+i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row does.   */ 
+	padding-left:1em;
+}
 @font-face {
   font-family: 'MyWebFont';
   src: url('../fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
