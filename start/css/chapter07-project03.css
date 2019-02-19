@@ -41,6 +41,11 @@ footer {
 	margin: 0% 0% 0% 0%;
 
 }
+.search-submit {
+	background:  #FF69B4;
+	border: 10px;
+	color:white;
+}
 .contact-us-submit {
 	background: #FF69B4;
 	border: 10px ;
@@ -88,4 +93,9 @@ td{
 	padding-top:2%;
 	padding-bottom:2%;
 }
-
+h1 {
+	font-style:italic;
+	font-size: 15pt;
+	color:white;
+	margin: 37px -15px;
+}
