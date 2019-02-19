@@ -246,20 +246,20 @@
 
     </main>
     
-    <footer>
-       <div class ="row ">
+    <footer >
+       <div class ="row no-padding ">
 
                 <div class="col-md-6 col-lg-6 ">
                     <h4>Share YourTravels</h4>
                     <p>This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is published by Pearson Ed, and is the only textbook that covers the essentials of the entire field of contemporary web development. </p>
-                    <div class="row">
-                        <div class="col-md-6 ">
+                    <div class="clearfix ">
+                        <div class="col-md-6 col-lg-6 no-padding">
                             <h5>Headquarters</h5>
                             Mount Royal University<br>
                             4825 Mount Royal Gate SW<br>
                             Calgary, Canada, T3E 6K6
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-lg-6 no-padding">
                             <h5>Follow Us</h5>
 							<!--If have time, try to change color of each other these.  Functional as is.-->
 							<a href="#"> <i class="fas fa-camera fa-3x "></i></a>
@@ -270,64 +270,69 @@
                         </div>                        
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3">
+				<div>
+                <div class="col-md-3 ">
  
                     <h5> <i class="fas fa-pencil-alt"></i> Recent Posts</h5>
-                    <div class="inline-block">
+		<div class="row">
+                    <div class="col-md-12">
                       <a  href="#">
-                        <img  src="images/footer/6592294487.jpg" alt="..." class="img-circle ">
+                        <img  src="images/footer/6592294487.jpg" alt="..." class="img-circle recent-post-img">
                       </a>
-                      <div class="inline-text">
+                      <div >
                         <p class="no-padding"><a href="#">Calgary in the Snow</a></p>
                         <em>5 minutes ago</em>
                         <hr>
                       </div>
                     </div>
-                    <div class="inline-block">
+                    <div class="col-md-12">
                       <a href="#">
-                        <img  src="images/footer/6114904363.jpg" alt="..." class="img-circle">
+                        <img  src="images/footer/6114904363.jpg" alt="..." class="img-circle recent-post-img" >
                       </a>
-                      <div class="inline-text">
+                      <div >
                         <p class="no-padding"><a href="#">Mountain Climbing</a></p>
                         <em>11 minutes ago</em>
                         <hr>
                       </div>
                     </div>   
-                    <div class="inline-block">
+                    <div class="col-md-12">
                       <a  href="#">
-                        <img  src="images/footer/5856697109.jpg" alt="..." class="img-circle">
+                        <img  src="images/footer/5856697109.jpg" alt="..." class="img-circle recent-post-img">
                       </a>
-                      <div class="inline-text">
+                      <div >
                         <p class="no-padding"><a href="#">Nova Scotia</a></p>
                         <em>23 minutes ago</em>
                       </div>
                     </div>                
-               
+            </div >
                 </div>
-                <div class="form-group col-md-3 col-lg-3">
+			
+                <div class="clearfix">
 					
                     <h5> <i class="fas fa-envelope prefix"></i> Contact us</h5>
                     <form role="form">
-                      <div class="inputFieldBuffer ">
+                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
                         <label class="sr-only" for="name">Name</label>
-                        <input class= "container-fluid" type="text"  name="email" placeholder="Enter name ...">
+                        <input class= "form-control" type="text"  name="email" placeholder="Enter name ...">
                       </div> 
-                      <div class="inputFieldBuffer">
+                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
                         <label class="sr-only" for="email">Email</label>
-                        <input class= "container-fluid" type="email"  name="email" placeholder="Enter email ...">
+                        <input class= "form-control" type="email"  name="email" placeholder="Enter email ...">
                       </div> 
-                      <div class="inputFieldBuffer">
+                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
                         <label class="sr-only" for="email">Email</label>
-                        <textarea  class= "container-fluid"rows="3" placeholder="Enter message ..."></textarea>
+                        <textarea  class= "form-control" rows="3" placeholder="Enter message ..."></textarea>
+						<button type="submit" class="contact-us-submit form-control ">Submit</button>
                       </div>   
-                      <button type="submit" class="contact-us-submit">Submit</button>
+                      
+					  
                     </form>  
                                    
                 </div>                                    
            
         </div>  
         <div class="row darkBlue" >
-            <div class="col-md-12 col-lg-12 text-center">
+            <div class="col-md-12  text-center">
                 <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
                 <p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
             </div>            
