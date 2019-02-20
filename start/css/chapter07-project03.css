@@ -91,6 +91,19 @@ td{
 	padding-top:2%;
 	padding-bottom:2%;
 }
+
+.rightIcons{
+float:left;
+background-color:white;
+display:inline-block;
+margin-top:5%;
+margin-bottom:5%;
+padding-top:2%;
+padding-bottom:2%;
+padding-right:8%;
+padding-left:8%;
+}
+
 h1 {
 	font-style:italic;
 	font-size: 15pt;
@@ -112,7 +125,6 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
 }
 .relatedPhoto {
 	display:block;
-	list-style:none;
 	border: thin purple solid;
 	margin: 3%;
 	padding: 3%;
@@ -125,11 +137,11 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
   background-color: hotpink; /* Green */
   border: none;
   color: white;
-  padding: 5px 5px;
+  padding: 3px 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 13px;
   margin: 4px 2px;
   cursor: pointer;
 
@@ -138,16 +150,32 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
   background-color: lightblue; /* Green */
   border: none;
   color: white;
-  padding: 5px 5px;
+  padding: 3px 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 13px;
   margin: 4px 2px;
   cursor: pointer;
 
 
 }
+.tags{
+  background-color: darkblue; /* Green */
+  border: none;
+  border-radius:5px;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+
+}
+
+
 
 
 @font-face {
