@@ -1,13 +1,8 @@
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('../fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
-       url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg'); /* Legacy iOS */
-}
+
 
 body {
+	
+
   margin: 0% 8% 0% 8%;
   width: 0% 8% 0% 8%;
 }
@@ -29,8 +24,9 @@ footer {
 	margin: 0 0 0 0;
 }
 
-.inline-text {
-	float:right;
+.recent-post-img{
+	float:left;
+
 }
 .no-padding {
 	margin: 0 0 0 0;
@@ -39,13 +35,20 @@ footer {
 .darkBlue {
 	background-color:#0000FF;
 	margin: 0% 0% 0% 0%;
-
+	color:white;
+}
+.search-submit {
+	background:  #FF69B4;
+	border: 10px;
+	color:white;
+	padding: 3px 3px 3px 3px;
 }
 .contact-us-submit {
 	background: #FF69B4;
 	border: 10px ;
-	width: 14.8em;
+	margin-top:1em;
 	margin-bottom: 1em;
+	color:white;
 } 
 
 div.inputFieldBuffer{
@@ -89,6 +92,89 @@ td{
 	padding-bottom:2%;
 }
 
+.rightIcons{
+float:left;
+background-color:white;
+display:inline-block;
+margin-top:5%;
+margin-bottom:5%;
+padding-top:2%;
+padding-bottom:2%;
+padding-right:8%;
+padding-left:8%;
+}
+
+h1 {
+	font-style:italic;
+	font-size: 15pt;
+	color:white;
+	margin: 37px -0;
+}
+ul.topBar {
+	text-align:right;
+	 padding: 0 0 0 0;
+	 margin:0 0 0 0;
+	
+}
+ul.topBar > li { /*Targets all list items first descenndents from ul which has the class topBar*/
+	padding: 0 1em 0 0 ;
+	display:inline;
+}
+i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row does.   */ 
+	padding-left:1em;
+}
+.relatedPhoto {
+	display:block;
+	border: thin purple solid;
+	margin: 3%;
+	padding: 3%;
+	text-align:center;
+}
+.relatedPhoto h6{
+	caption-side: bottom;
+}
+.relatedPhotoB1{
+  background-color: hotpink; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.relatedPhotoB2{
+  background-color: lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+}
+.tags{
+  background-color: darkblue; /* Green */
+  border: none;
+  border-radius:5px;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+
+}
+
 @media only screen and (max-width:991px){
 	table{
 		margin:0%;
@@ -109,3 +195,12 @@ td{
 	}*/
 }
 
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/glyphicons-halflings-regular.eot'); /* IE9 Compat Modes */
+       url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg'); /* Legacy iOS */
+}
