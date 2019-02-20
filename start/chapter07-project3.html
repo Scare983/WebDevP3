@@ -18,6 +18,7 @@
 <body>
     <header>
         <div class="darkBlue no-padding">
+			<div class="wrapper">
 			<ul class="topBar">
                 <li><a href="#"> <i class="  fas fa-sign-in-alt fa-s"></i> Logout</a></li>
       
@@ -28,54 +29,56 @@
                 <li><a href="#"> <i class="fas fa-star fa-s"></i> Favorites</a></li>
             </ul>
         </div>
+		</div>
         <!-- end topHeaderRow -->
 
 
         <nav class="navbar navbar-default navbar-expand-md">
-            <div class="container">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="">
-					<div class="nav navbar-nav"> 
-						<h1>Share Your Travels</h1> <!-- fix font and make italitcs.  -->
-					</div>
-<div class ="collapse navbar-collapse navbar-left">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
-								Browse		
-							<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li ><a href="#">Countries</a></li>
-                                <li><a href="#">Images</a></li>
-                                <li><a href="#">Posts</a></li>
-                            </ul>
-                        </li>
-						
-                    </ul>
-
-					<form class="navbar-form navbar-right ">
-                        <div class="form-group ">
-                            <input type="text"  placeholder="Search">
-                        
-                        <button class="search-submit " type="submit">Submit</button> <!--fix color of submit and outline -->
+			<div class="wrapper">
+				<div class="container classy">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+	
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div >
+						<div class="navbar-header "> 
+							<h1>Share Your Travels</h1> <!-- fix font and make italitcs.  -->
 						</div>
-                    </form>
- </div>
-                </div>
-
-
-
-            </div>
-
+						<div class ="collapse navbar-collapse navbar-left">
+						<ul class="nav navbar-nav ">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+							<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+									Browse		
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li ><a href="#">Countries</a></li>
+									<li><a href="#">Images</a></li>
+									<li><a href="#">Posts</a></li>
+								</ul>
+							</li>
+							
+						</ul>
+	
+						<form class="navbar-form navbar-right ">
+							<div class="form-group ">
+								<input type="text"  placeholder="Search">
+							
+							<button class="search-submit " type="submit">Submit</button> <!--fix color of submit and outline -->
+							</div>
+						</form>
+						</div>
+					</div>
+	
+	
+	
+				</div>
+			</div>
         </nav>
     </header>
 
@@ -252,99 +255,103 @@
  </div>
     </main>
     
-    <footer >
-       <div class ="row no-padding ">
-
-                <div class="col-md-6 col-lg-6 ">
-                    <h4>Share YourTravels</h4>
-                    <p>This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is published by Pearson Ed, and is the only textbook that covers the essentials of the entire field of contemporary web development. </p>
-                    <div class="clearfix ">
-                        <div class="col-md-6 col-lg-6 no-padding">
-                            <h5>Headquarters</h5>
-                            Mount Royal University<br>
-                            4825 Mount Royal Gate SW<br>
-                            Calgary, Canada, T3E 6K6
-                        </div>
-                        <div class="col-md-6 col-lg-6 no-padding">
-                            <h5>Follow Us</h5>
-							<!--If have time, try to change color of each other these.  Functional as is.-->
-							<a href="#"> <i class="fas fa-camera fa-3x "></i></a>
-							<a href="#"><i class="fas fa-user fa-3x"></i> </a>
-                            <a href="#"> <i class="fas fa-tags fa-3x"></i> </a>   
-                            <a href="#"> <i class="fas fa-bookmark fa-3x"></i> </a>     
-                           <a href="#"> <i class="fas fa-fire fa-3x"></i> </a>                                                                             
-                        </div>                        
-                    </div>
-                </div>
-				<div>
-                <div class="col-md-3 ">
- 
-                    <h5> <i class="fas fa-pencil-alt"></i> Recent Posts</h5>
-		<div class="row">
-                    <div class="col-md-12">
-                      <a  href="#">
-                        <img  src="images/footer/6592294487.jpg" alt="..." class="img-circle recent-post-img">
-                      </a>
-                      <div >
-                        <p class="no-padding"><a href="#">Calgary in the Snow</a></p>
-                        <em>5 minutes ago</em>
-                        <hr>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <a href="#">
-                        <img  src="images/footer/6114904363.jpg" alt="..." class="img-circle recent-post-img" >
-                      </a>
-                      <div >
-                        <p class="no-padding"><a href="#">Mountain Climbing</a></p>
-                        <em>11 minutes ago</em>
-                        <hr>
-                      </div>
-                    </div>   
-                    <div class="col-md-12">
-                      <a  href="#">
-                        <img  src="images/footer/5856697109.jpg" alt="..." class="img-circle recent-post-img">
-                      </a>
-                      <div >
-                        <p class="no-padding"><a href="#">Nova Scotia</a></p>
-                        <em>23 minutes ago</em>
-                      </div>
-                    </div>                
-            </div >
-                </div>
-			
-                <div class="clearfix">
-					
-                    <h5> <i class="fas fa-envelope prefix" ></i> Contact us</h5>
-                    <form role="form">
-                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
-                        <label class="sr-only" for="name">Name</label>
-                        <input class= "form-control" type="text"  name="email" placeholder="Enter name ...">
-                      </div> 
-                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
-                        <label class="sr-only" for="email">Email</label>
-                        <input class= "form-control" type="email"  name="email" placeholder="Enter email ...">
-                      </div> 
-                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
-                        <label class="sr-only" for="email">Email</label>
-                        <textarea  class= "form-control" rows="3" placeholder="Enter message ..."></textarea>
-						<button type="submit" class="contact-us-submit form-control ">Submit</button>
-                      </div>   
-                      
-					  
-                    </form>  
-                                   
-                </div>                                    
-           </div>
-        </div>  
+    <footer>
+		<div class="wrapper">
+			<div class ="row no-padding ">
+	
+					<div class="col-md-6 col-lg-6 ">
+						<h4>Share YourTravels</h4>
+						<p>This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is published by Pearson Ed, and is the only textbook that covers the essentials of the entire field of contemporary web development. </p>
+						<div class="clearfix ">
+							<div class="col-md-6 col-lg-6 no-padding">
+								<h5>Headquarters</h5>
+								Mount Royal University<br>
+								4825 Mount Royal Gate SW<br>
+								Calgary, Canada, T3E 6K6
+							</div>
+							<div class="col-md-6 col-lg-6 no-padding">
+								<h5>Follow Us</h5>
+								<!--If have time, try to change color of each other these.  Functional as is.-->
+								<a href="#"> <i class="fas fa-camera fa-3x "></i></a>
+								<a href="#"><i class="fas fa-user fa-3x"></i> </a>
+								<a href="#"> <i class="fas fa-tags fa-3x"></i> </a>   
+								<a href="#"> <i class="fas fa-bookmark fa-3x"></i> </a>     
+							<a href="#"> <i class="fas fa-fire fa-3x"></i> </a>                                                                             
+							</div>                        
+						</div>
+					</div>
+					<div>
+					<div class="col-md-3 ">
+	
+						<h5> <i class="fas fa-pencil-alt"></i> Recent Posts</h5>
+				<div class="row">
+						<div class="col-md-12">
+						<a  href="#">
+							<img  src="images/footer/6592294487.jpg" alt="..." class="img-circle recent-post-img">
+						</a>
+						<div >
+							<p class="no-padding"><a href="#">Calgary in the Snow</a></p>
+							<em>5 minutes ago</em>
+							<hr>
+						</div>
+						</div>
+						<div class="col-md-12">
+						<a href="#">
+							<img  src="images/footer/6114904363.jpg" alt="..." class="img-circle recent-post-img" >
+						</a>
+						<div >
+							<p class="no-padding"><a href="#">Mountain Climbing</a></p>
+							<em>11 minutes ago</em>
+							<hr>
+						</div>
+						</div>   
+						<div class="col-md-12">
+						<a  href="#">
+							<img  src="images/footer/5856697109.jpg" alt="..." class="img-circle recent-post-img">
+						</a>
+						<div >
+							<p class="no-padding"><a href="#">Nova Scotia</a></p>
+							<em>23 minutes ago</em>
+						</div>
+						</div>                
+				</div >
+					</div>
+				
+					<div class="clearfix">
+						
+						<h5> <i class="fas fa-envelope prefix" ></i> Contact us</h5>
+						<form role="form">
+						<div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
+							<label class="sr-only" for="name">Name</label>
+							<input class= "form-control" type="text"  name="email" placeholder="Enter name ...">
+						</div> 
+						<div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
+							<label class="sr-only" for="email">Email</label>
+							<input class= "form-control" type="email"  name="email" placeholder="Enter email ...">
+						</div> 
+						<div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
+							<label class="sr-only" for="email">Email</label>
+							<textarea  class= "form-control" rows="3" placeholder="Enter message ..."></textarea>
+							<button type="submit" class="contact-us-submit form-control ">Submit</button>
+						</div>   
+						
+						
+						</form>  
+									
+					</div>                                    
+				</div>
+			</div>  
+		</div>
         <div class="row darkBlue" >
-            <div class="col-md-12  text-center">
-                <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
-                <p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
-            </div>            
+			
+				<div class="col-md-12  text-center">
+					<p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
+					<p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
+				</div>      
+			
         </div>
         
-
+		
     </footer>
 
 

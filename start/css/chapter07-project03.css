@@ -1,8 +1,6 @@
 
 
-body {
-	
-
+main{
   margin: 0% 8% 0% 8%;
   width: 0% 8% 0% 8%;
 }
@@ -11,7 +9,10 @@ footer {
 	background-color:#303f9f;
 	font-size:8pt;
 }
-
+.wrapper {
+  margin: 0% 8% 0% 8%;
+ 
+}
 .navbar-header{
 	font-family:'glyphicons-halflings-regular';
 }
