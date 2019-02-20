@@ -93,6 +93,7 @@ td{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .largeRow{
 	display:inline;
 }
@@ -100,6 +101,8 @@ td{
 .smallRow{
 	display:none;
 =======
+=======
+>>>>>>> 1b50f3d4f04ab1be8c53f799ddd724c33400c71d
 .rightIcons{
 float:left;
 background-color:white;
@@ -181,6 +184,9 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
   margin: 2px 1px;
   cursor: pointer;
 
+<<<<<<< HEAD
+>>>>>>> 1b50f3d4f04ab1be8c53f799ddd724c33400c71d
+=======
 >>>>>>> 1b50f3d4f04ab1be8c53f799ddd724c33400c71d
 }
 
