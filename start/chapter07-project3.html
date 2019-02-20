@@ -17,35 +17,31 @@
 
 <body>
     <header>
-        <div class="darkBlue no-padding">
-			<ul class="topBar">
-                <li><a href="#"> <i class="  fas fa-sign-in-alt fa-s"></i> Logout</a></li>
-      
-          
-                <li><a href="#"> <i class="fas fa-user fa-s"></i>Profile</a></li>
-           
-           
-                <li><a href="#"> <i class="fas fa-star fa-s"></i> Favorites</a></li>
-            </ul>
+        <div class="row topHeaderRow darkBlue">
+            <div class="col-md-9 col-lg-9"></div>
+        	<div class="col-md-1 col-lg-1">
+                <a href="#"> Logout</a>
+            </div>
+            <div class="col-md-1 col-lg-1">
+                <a href="#"> Profile</a>
+            </div>
+            <div class="col-md-1 col-lg-1">
+                <a href="#"> Favorites</a>
+            </div>
         </div>
         <!-- end topHeaderRow -->
 
 
-        <nav class="navbar navbar-default navbar-expand-md">
+        <nav class="navbar navbar-default navbar-expand-sm">
             <div class="container">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="">
-					<div class="nav navbar-nav"> 
+                <div class="nav navbar-header">
+					<div class="navbar-header"> 
 						<h1>Share Your Travels</h1> <!-- fix font and make italitcs.  -->
 					</div>
-<div class ="collapse navbar-collapse navbar-left">
-                    <ul class="nav navbar-nav navbar-left">
+                    <ul class="nav navbar-nav">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
@@ -62,15 +58,14 @@
 						
                     </ul>
 
-					<form class="navbar-form navbar-right ">
+					<form class="navbar-form navbar-left ">
                         <div class="form-group ">
                             <input type="text"  placeholder="Search">
-                        
-                        <button class="search-submit " type="submit">Submit</button> <!--fix color of submit and outline -->
-						</div>
+                        </div>
+                        <button type="submit">Submit</button> <!--fix color of submit and outline -->
                     </form>
- </div>
                 </div>
+                
 
 
 
@@ -137,31 +132,32 @@
                             	<p>Taken on: August 8, 2017</p>
                             </div>
                         </div>
-						<div class="row">
-                            <div class="col-md-12 col-lg-12">
-                            	
-                                <button class="rightIcons" type="button" ><i class="fa fa-heart"></i></button>
- 
-                                <button class="rightIcons" type="button" ><i class="fa fa-download"></i></button>
 
-                                <button class="rightIcons" type="button" ><i class="fa fa-print"></i></button>
-
-                                <button class="rightIcons" type="button" ><i class="fa fa-comment"></i></button>
-                                
+                        <div >
+                            <div >
+                                <button type="button" >Heart</button>
+                            </div>
+                            <div >
+                                <button type="button" >Save</button>
+                            </div>
+                            <div >
+                                <button type="button" >Print</button>
+                            </div> 
+                            <div >
+                                <button type="button" >Comment</button>
                             </div>                                                                 
                         </div>
 
                         <h4>Tags</h4>
-                        <div class="row rightDescription">
+                        <div>
                             <div id="tags">
-                            	<div class="col-md-12 col-lg-12">
-                                <span class="tags">ancient</span>
-                                <span class="tags">garden</span>
-                                <span class="tags">hill</span>
-                                <span class="tags">ruins</span>
-                                <span class="tags">sunshine</span>
-                                <span class="tags">temple</span>
-								</div>
+                                <span >ancient</span>
+                                <span >garden</span>
+                                <span >hill</span>
+                                <span >ruins</span>
+                                <span >sunshine</span>
+                                <span >temple</span>
+
                             </div>
                         </div>
 
@@ -178,10 +174,10 @@
 	                    <h3>Related Photos</h3>
 	                </div>
                 </div>
-
-				<div class="row">
-
-                	<div class="col-sm-6 col-lg-3 relatedPicturesRow1">
+                
+                <div class="row largeRow">
+				
+                	<div class="col-md-3">
                    		<div >
                         	<a href="#" >
                             	<img src="images/related/8710320515.jpg" alt="">
@@ -194,7 +190,7 @@
                     	</div>
                 	</div>
 
-                	<div class="col-sm-6 col-lg-3 relatedPicturesRow1">
+                	<div class="col-md-3">
                    		<div >
                         	<a href="#" >
                             	<img src="images/related/8710513053.jpg" alt="">
@@ -207,49 +203,7 @@
                     	</div>
                 	</div>
 
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                   <div class="relatedPhoto">
-                        <a href="#" >
-                            <img src="images/related/8710320515.jpg" alt="">
-                        </a>                        
-                        <div >
-                            <h6>Ekklisia Agii Isidori</h6>
-                            <button class="relatedPhotoB1" type="button" ><i class="fa fa-eye"></i>  View</button>
-                            <button class="relatedPhotoB2" type="button" ><i class="fa fa-heart"></i> Favorite</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                   <div class="relatedPhoto">
-                        <a href="#" >
-                            <img src="images/related/8710513053.jpg" alt="">
-                        </a>
-                        <div>
-                            <h6>Theatre of Dionysos</h6>
-                            <button class="relatedPhotoB1" type="button" ><i class="fa fa-eye"></i>  View</button>
-                            <button class="relatedPhotoB2" type="button" ><i class="fa fa-heart"></i> Favorite</button>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                   <div class="relatedPhoto">
-                        <a href="#" >
-                            <img  src="images/related/8711623884.jpg" alt="">
-                        </a>
-                        <div class="caption">
-                            <h6>Roman Agora</h6>
-                            <button class="relatedPhotoB1" type="button" ><i class="fa fa-eye"></i>  View</button>
-                            <button class="relatedPhotoB2" type="button" ><i class="fa fa-heart"></i> Favorite</button>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row">
-
-                	<div class="col-sm-6 col-lg-3 relatedPicturesRow2">
+                	<div class="col-md-3">
                    		<div >
                         	<a href="#" >
                             	<img  src="images/related/8711623884.jpg" alt="">
@@ -262,7 +216,7 @@
                     	</div>
                 	</div>
 
-                	<div class="col-sm-6 col-lg-3 relatedPicturesRow2">
+                	<div class="col-md-3">
                    		<div >
                         	<a href="#" >
                             	<img  src="images/related/9498388516.jpg" alt="">
@@ -274,20 +228,66 @@
                         	</div>
                     	</div>
                 	</div>
-
-                <div class="col-sm-6 col-md-6 col-lg-3">
-                   <div class="relatedPhoto">
-                        <a href="#" >
-                            <img  src="images/related/9498388516.jpg" alt="">
-                        </a>
-                        <div >
-                            <h6>Temple of Asclepius</h6>
-
-                            <button class="relatedPhotoB1" type="button" ><i class="fa fa-eye"></i> View</button>
-                            <button class="relatedPhotoB2" type="button" ><i class="fa fa-heart"></i> Favorite</button>
-                        </div>
-                    </div>
+                
                 </div>
+
+				<div class="row smallRow">
+				
+                	<div class="col-sm-6">
+                   		<div >
+                        	<a href="#" >
+                            	<img src="images/related/8710320515.jpg" alt="">
+                        	</a>                        
+                        	<div >
+                            	<h6>Ekklisia Agii Isidori</h6>
+                            	<button type="button" > View</button>
+                            	<button type="button" > Favorite</button>
+                        	</div>
+                    	</div>
+                	</div>
+
+                	<div class="col-sm-6">
+                   		<div >
+                        	<a href="#" >
+                            	<img src="images/related/8710513053.jpg" alt="">
+                        	</a>
+                        	<div >
+                            	<h6>Theatre of Dionysos</h6>
+                            	<button type="button" > View</button>
+                            	<button type="button" > Favorite</button>
+                        	</div>
+                    	</div>
+                	</div>
+                	
+                </div>
+                
+                <div class="row smallRow">
+
+                	<div class="col-sm-6">
+                   		<div >
+                        	<a href="#" >
+                            	<img  src="images/related/8711623884.jpg" alt="">
+                        	</a>
+                        	<div class="caption">
+                            	<h6>Roman Agora</h6>
+                            	<button type="button" > View</button>
+                            	<button type="button" > Favorite</button>
+                        	</div>
+                    	</div>
+                	</div>
+
+                	<div class="col-sm-6">
+                   		<div >
+                        	<a href="#" >
+                            	<img  src="images/related/9498388516.jpg" alt="">
+                        	</a>
+                        	<div >
+                            	<h6>Temple of Asclepius</h6>
+                            	<button type="button" > View</button>
+                            	<button type="button" > Favorite</button>
+                        	</div>
+                    	</div>
+                	</div>
                 
                 </div>
                                
@@ -300,20 +300,20 @@
 
     </main>
     
-    <footer >
-       <div class ="row no-padding ">
+    <footer>
+       <div class ="row ">
 
                 <div class="col-md-6 col-lg-6 ">
                     <h4>Share YourTravels</h4>
                     <p>This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is published by Pearson Ed, and is the only textbook that covers the essentials of the entire field of contemporary web development. </p>
-                    <div class="clearfix ">
-                        <div class="col-md-6 col-lg-6 no-padding">
+                    <div class="row">
+                        <div class="col-md-6 ">
                             <h5>Headquarters</h5>
                             Mount Royal University<br>
                             4825 Mount Royal Gate SW<br>
                             Calgary, Canada, T3E 6K6
                         </div>
-                        <div class="col-md-6 col-lg-6 no-padding">
+                        <div class="col-md-6">
                             <h5>Follow Us</h5>
 							<!--If have time, try to change color of each other these.  Functional as is.-->
 							<a href="#"> <i class="fas fa-camera fa-3x "></i></a>
@@ -324,69 +324,64 @@
                         </div>                        
                     </div>
                 </div>
-				<div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 col-lg-3">
  
                     <h5> <i class="fas fa-pencil-alt"></i> Recent Posts</h5>
-		<div class="row">
-                    <div class="col-md-12">
+                    <div class="inline-block">
                       <a  href="#">
-                        <img  src="images/footer/6592294487.jpg" alt="..." class="img-circle recent-post-img">
+                        <img  src="images/footer/6592294487.jpg" alt="..." class="img-circle ">
                       </a>
-                      <div >
+                      <div class="inline-text">
                         <p class="no-padding"><a href="#">Calgary in the Snow</a></p>
                         <em>5 minutes ago</em>
                         <hr>
                       </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="inline-block">
                       <a href="#">
-                        <img  src="images/footer/6114904363.jpg" alt="..." class="img-circle recent-post-img" >
+                        <img  src="images/footer/6114904363.jpg" alt="..." class="img-circle">
                       </a>
-                      <div >
+                      <div class="inline-text">
                         <p class="no-padding"><a href="#">Mountain Climbing</a></p>
                         <em>11 minutes ago</em>
                         <hr>
                       </div>
                     </div>   
-                    <div class="col-md-12">
+                    <div class="inline-block">
                       <a  href="#">
-                        <img  src="images/footer/5856697109.jpg" alt="..." class="img-circle recent-post-img">
+                        <img  src="images/footer/5856697109.jpg" alt="..." class="img-circle">
                       </a>
-                      <div >
+                      <div class="inline-text">
                         <p class="no-padding"><a href="#">Nova Scotia</a></p>
                         <em>23 minutes ago</em>
                       </div>
                     </div>                
-            </div >
+               
                 </div>
-			
-                <div class="clearfix">
+                <div class="form-group col-md-3 col-lg-3">
 					
-                    <h5> <i class="fas fa-envelope prefix" ></i> Contact us</h5>
+                    <h5> <i class="fas fa-envelope prefix"></i> Contact us</h5>
                     <form role="form">
-                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
+                      <div class="inputFieldBuffer ">
                         <label class="sr-only" for="name">Name</label>
-                        <input class= "form-control" type="text"  name="email" placeholder="Enter name ...">
+                        <input class= "container-fluid" type="text"  name="email" placeholder="Enter name ...">
                       </div> 
-                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
+                      <div class="inputFieldBuffer">
                         <label class="sr-only" for="email">Email</label>
-                        <input class= "form-control" type="email"  name="email" placeholder="Enter email ...">
+                        <input class= "container-fluid" type="email"  name="email" placeholder="Enter email ...">
                       </div> 
-                      <div class="inputFieldBuffer col-sm-12 col-md-3 col-lg-3">
+                      <div class="inputFieldBuffer">
                         <label class="sr-only" for="email">Email</label>
-                        <textarea  class= "form-control" rows="3" placeholder="Enter message ..."></textarea>
-						<button type="submit" class="contact-us-submit form-control ">Submit</button>
+                        <textarea  class= "container-fluid"rows="3" placeholder="Enter message ..."></textarea>
                       </div>   
-                      
-					  
+                      <button type="submit" class="contact-us-submit">Submit</button>
                     </form>  
                                    
                 </div>                                    
            
         </div>  
         <div class="row darkBlue" >
-            <div class="col-md-12  text-center">
+            <div class="col-md-12 col-lg-12 text-center">
                 <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
                 <p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
             </div>            
