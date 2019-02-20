@@ -175,7 +175,25 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
 
 }
 
-
+@media only screen and (max-width:991px){
+	table{
+		margin:0%;
+		width:100%;
+	}
+	
+	.mainIMG{
+		margin-top:2%;
+		width:90%;
+	}
+	/*
+	.relatedPicturesRow1{
+		width:50%;
+	}
+	
+	.relatedPicturesRow2{
+		width:50%;
+	}*/
+}
 
 
 @font-face {
