@@ -96,8 +96,8 @@ margin-top:5%;
 margin-bottom:5%;
 padding-top:2%;
 padding-bottom:2%;
-padding-right:8%;
-padding-left:8%;
+padding-right:7%;
+padding-left:7%;
 }
 
 h1 {
@@ -130,10 +130,10 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
 	caption-side: bottom;
 }
 .relatedPhotoB1{
-  background-color: hotpink; /* Green */
+  background-color: hotpink; 
   border: none;
   color: white;
-  padding: 3px 3px;
+  padding: 2px 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -143,10 +143,10 @@ i[class~="fa-envelope"] { /*Fixes weird indent clearfix doesn't include like row
 
 }
 .relatedPhotoB2{
-  background-color: lightblue; /* Green */
+  background-color: lightblue; 
   border: none;
   color: white;
-  padding: 3px 3px;
+  padding: 2px 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
